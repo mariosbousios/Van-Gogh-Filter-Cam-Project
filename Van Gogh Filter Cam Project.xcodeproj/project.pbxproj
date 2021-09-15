@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF56026F1EE680019B315 /* AppDelegate.swift */; };
 		E89AF56326F1EE680019B315 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF56226F1EE680019B315 /* SceneDelegate.swift */; };
-		E89AF56526F1EE680019B315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF56426F1EE680019B315 /* ViewController.swift */; };
 		E89AF56826F1EE680019B315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56626F1EE680019B315 /* Main.storyboard */; };
 		E89AF56A26F1EE690019B315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56926F1EE690019B315 /* Assets.xcassets */; };
 		E89AF56D26F1EE690019B315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */; };
@@ -29,13 +28,13 @@
 		E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */; };
 		E89AF59B26F1F4BA0019B315 /* VanGoghCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */; };
 		E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */; };
+		E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59F26F1F5560019B315 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E89AF55D26F1EE680019B315 /* Van Gogh Filter Cam Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Van Gogh Filter Cam Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89AF56026F1EE680019B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E89AF56226F1EE680019B315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E89AF56426F1EE680019B315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E89AF56726F1EE680019B315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E89AF56926F1EE690019B315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E89AF56C26F1EE690019B315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFilter.swift; sourceTree = "<group>"; };
 		E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghCollectionViewCell.swift; sourceTree = "<group>"; };
 		E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VanGoghCollectionViewCell.xib; sourceTree = "<group>"; };
+		E89AF59F26F1F5560019B315 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +93,9 @@
 				E89AF58826F1F3550019B315 /* Managers */,
 				E89AF59426F1F42B0019B315 /* Models */,
 				E89AF59726F1F4950019B315 /* Views */,
+				E89AF59E26F1F53F0019B315 /* View Controllers */,
+				E89AF59D26F1F4FC0019B315 /* BasicFiles */,
 				E89AF58B26F1F3C70019B315 /* Constants */,
-				E89AF56026F1EE680019B315 /* AppDelegate.swift */,
-				E89AF56226F1EE680019B315 /* SceneDelegate.swift */,
-				E89AF56426F1EE680019B315 /* ViewController.swift */,
 				E89AF56626F1EE680019B315 /* Main.storyboard */,
 				E89AF56926F1EE690019B315 /* Assets.xcassets */,
 				E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */,
@@ -171,6 +170,23 @@
 			path = VanGoghFilterCell;
 			sourceTree = "<group>";
 		};
+		E89AF59D26F1F4FC0019B315 /* BasicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF56226F1EE680019B315 /* SceneDelegate.swift */,
+				E89AF56026F1EE680019B315 /* AppDelegate.swift */,
+			);
+			path = BasicFiles;
+			sourceTree = "<group>";
+		};
+		E89AF59E26F1F53F0019B315 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF59F26F1F5560019B315 /* HomeViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -243,11 +259,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E89AF58626F1F2D60019B315 /* UIViewExtension.swift in Sources */,
-				E89AF56526F1EE680019B315 /* ViewController.swift in Sources */,
 				E89AF58426F1F2D60019B315 /* UIButtonExtension.swift in Sources */,
 				E89AF59026F1F3D90019B315 /* Colors.swift in Sources */,
 				E89AF59326F1F41D0019B315 /* VanGoghFiltersManager.swift in Sources */,
 				E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */,
+				E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */,
 				E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */,
 				E89AF58726F1F2D60019B315 /* UIImageExtension.swift in Sources */,
 				E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */,
