@@ -60,5 +60,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Montserrat-Black.ttf</string>
+		<string>Montserrat-BlackItalic.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>Montserrat-BoldItalic.ttf</string>
+		<string>Montserrat-Italic.ttf</string>
+		<string>Montserrat-Light.ttf</string>
+		<string>Montserrat-LightItalic.ttf</string>
+		<string>Montserrat-MediumItalic.ttf</string>
+		<string>Montserrat-Medium.ttf</string>
+		<string>Montserrat-Regular.ttf</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Allow app to open your camera and capture a photo.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow in order to save the Van Gogh styled image to your photo library.</string>
 </dict>
 </plist>
