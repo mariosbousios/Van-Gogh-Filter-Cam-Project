@@ -27,6 +27,8 @@
 		E89AF59126F1F3D90019B315 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF58E26F1F3D90019B315 /* Strings.swift */; };
 		E89AF59326F1F41D0019B315 /* VanGoghFiltersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59226F1F41D0019B315 /* VanGoghFiltersManager.swift */; };
 		E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */; };
+		E89AF59B26F1F4BA0019B315 /* VanGoghCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */; };
+		E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		E89AF58E26F1F3D90019B315 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
 		E89AF59226F1F41D0019B315 /* VanGoghFiltersManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFiltersManager.swift; sourceTree = "<group>"; };
 		E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFilter.swift; sourceTree = "<group>"; };
+		E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghCollectionViewCell.swift; sourceTree = "<group>"; };
+		E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VanGoghCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +92,7 @@
 				E89AF57F26F1F2CB0019B315 /* Extensions */,
 				E89AF58826F1F3550019B315 /* Managers */,
 				E89AF59426F1F42B0019B315 /* Models */,
+				E89AF59726F1F4950019B315 /* Views */,
 				E89AF58B26F1F3C70019B315 /* Constants */,
 				E89AF56026F1EE680019B315 /* AppDelegate.swift */,
 				E89AF56226F1EE680019B315 /* SceneDelegate.swift */,
@@ -147,6 +152,23 @@
 				E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E89AF59726F1F4950019B315 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF59826F1F4A20019B315 /* VanGoghFilterCell */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E89AF59826F1F4A20019B315 /* VanGoghFilterCell */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */,
+				E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */,
+			);
+			path = VanGoghFilterCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +231,7 @@
 				E89AF56D26F1EE690019B315 /* LaunchScreen.storyboard in Resources */,
 				E89AF56A26F1EE690019B315 /* Assets.xcassets in Resources */,
 				E89AF56826F1EE680019B315 /* Main.storyboard in Resources */,
+				E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +257,7 @@
 				E89AF57E26F1F0340019B315 /* PotatoEaters.mlmodel in Sources */,
 				E89AF57A26F1EFCA0019B315 /* AlmondBlossom.mlmodel in Sources */,
 				E89AF57B26F1EFCA0019B315 /* CafeTerrace.mlmodel in Sources */,
+				E89AF59B26F1F4BA0019B315 /* VanGoghCollectionViewCell.swift in Sources */,
 				E89AF58526F1F2D60019B315 /* UILabelExtension.swift in Sources */,
 				E89AF56326F1EE680019B315 /* SceneDelegate.swift in Sources */,
 			);
