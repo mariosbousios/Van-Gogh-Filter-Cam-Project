@@ -30,6 +30,7 @@
 		E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */; };
 		E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59F26F1F5560019B315 /* HomeViewController.swift */; };
 		E89AF5A226F1F5810019B315 /* StartingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */; };
+		E89AF5A426F1F59B0019B315 /* VanGoghFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF5A326F1F59B0019B315 /* VanGoghFiltersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VanGoghCollectionViewCell.xib; sourceTree = "<group>"; };
 		E89AF59F26F1F5560019B315 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingScreenViewController.swift; sourceTree = "<group>"; };
+		E89AF5A326F1F59B0019B315 /* VanGoghFiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFiltersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +188,7 @@
 			children = (
 				E89AF59F26F1F5560019B315 /* HomeViewController.swift */,
 				E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */,
+				E89AF5A326F1F59B0019B315 /* VanGoghFiltersViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */,
 				E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */,
 				E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */,
+				E89AF5A426F1F59B0019B315 /* VanGoghFiltersViewController.swift in Sources */,
 				E89AF58726F1F2D60019B315 /* UIImageExtension.swift in Sources */,
 				E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */,
 				E89AF59126F1F3D90019B315 /* Strings.swift in Sources */,
