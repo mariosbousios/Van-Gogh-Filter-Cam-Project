@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF56026F1EE680019B315 /* AppDelegate.swift */; };
 		E89AF56326F1EE680019B315 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF56226F1EE680019B315 /* SceneDelegate.swift */; };
-		E89AF56826F1EE680019B315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56626F1EE680019B315 /* Main.storyboard */; };
 		E89AF56A26F1EE690019B315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56926F1EE690019B315 /* Assets.xcassets */; };
-		E89AF56D26F1EE690019B315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */; };
 		E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57526F1EFC90019B315 /* StarryNight.mlmodel */; };
 		E89AF57A26F1EFCA0019B315 /* AlmondBlossom.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57626F1EFCA0019B315 /* AlmondBlossom.mlmodel */; };
 		E89AF57B26F1EFCA0019B315 /* CafeTerrace.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57726F1EFCA0019B315 /* CafeTerrace.mlmodel */; };
@@ -31,15 +29,15 @@
 		E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59F26F1F5560019B315 /* HomeViewController.swift */; };
 		E89AF5A226F1F5810019B315 /* StartingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */; };
 		E89AF5A426F1F59B0019B315 /* VanGoghFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF5A326F1F59B0019B315 /* VanGoghFiltersViewController.swift */; };
+		E89AF5A826F1F5D80019B315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF5A626F1F5D80019B315 /* LaunchScreen.storyboard */; };
+		E89AF5A926F1F5D80019B315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF5A726F1F5D80019B315 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E89AF55D26F1EE680019B315 /* Van Gogh Filter Cam Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Van Gogh Filter Cam Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E89AF56026F1EE680019B315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E89AF56226F1EE680019B315 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E89AF56726F1EE680019B315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E89AF56926F1EE690019B315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E89AF56C26F1EE690019B315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E89AF56E26F1EE690019B315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E89AF57526F1EFC90019B315 /* StarryNight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarryNight.mlmodel; sourceTree = "<group>"; };
 		E89AF57626F1EFCA0019B315 /* AlmondBlossom.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AlmondBlossom.mlmodel; sourceTree = "<group>"; };
@@ -60,6 +58,8 @@
 		E89AF59F26F1F5560019B315 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingScreenViewController.swift; sourceTree = "<group>"; };
 		E89AF5A326F1F59B0019B315 /* VanGoghFiltersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFiltersViewController.swift; sourceTree = "<group>"; };
+		E89AF5A626F1F5D80019B315 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E89AF5A726F1F5D80019B315 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +98,10 @@
 				E89AF59426F1F42B0019B315 /* Models */,
 				E89AF59726F1F4950019B315 /* Views */,
 				E89AF59E26F1F53F0019B315 /* View Controllers */,
+				E89AF5A526F1F5C20019B315 /* Storyboards */,
 				E89AF59D26F1F4FC0019B315 /* BasicFiles */,
 				E89AF58B26F1F3C70019B315 /* Constants */,
-				E89AF56626F1EE680019B315 /* Main.storyboard */,
 				E89AF56926F1EE690019B315 /* Assets.xcassets */,
-				E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */,
 				E89AF56E26F1EE690019B315 /* Info.plist */,
 			);
 			path = "Van Gogh Filter Cam Project";
@@ -193,6 +192,15 @@
 			path = "View Controllers";
 			sourceTree = "<group>";
 		};
+		E89AF5A526F1F5C20019B315 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF5A626F1F5D80019B315 /* LaunchScreen.storyboard */,
+				E89AF5A726F1F5D80019B315 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -250,10 +258,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E89AF56D26F1EE690019B315 /* LaunchScreen.storyboard in Resources */,
+				E89AF5A826F1F5D80019B315 /* LaunchScreen.storyboard in Resources */,
 				E89AF56A26F1EE690019B315 /* Assets.xcassets in Resources */,
-				E89AF56826F1EE680019B315 /* Main.storyboard in Resources */,
 				E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */,
+				E89AF5A926F1F5D80019B315 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,25 +296,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		E89AF56626F1EE680019B315 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E89AF56726F1EE680019B315 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E89AF56C26F1EE690019B315 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E89AF56F26F1EE690019B315 /* Debug */ = {
