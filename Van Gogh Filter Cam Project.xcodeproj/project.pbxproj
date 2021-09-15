@@ -13,6 +13,10 @@
 		E89AF56826F1EE680019B315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56626F1EE680019B315 /* Main.storyboard */; };
 		E89AF56A26F1EE690019B315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56926F1EE690019B315 /* Assets.xcassets */; };
 		E89AF56D26F1EE690019B315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E89AF56B26F1EE690019B315 /* LaunchScreen.storyboard */; };
+		E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57526F1EFC90019B315 /* StarryNight.mlmodel */; };
+		E89AF57A26F1EFCA0019B315 /* AlmondBlossom.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57626F1EFCA0019B315 /* AlmondBlossom.mlmodel */; };
+		E89AF57B26F1EFCA0019B315 /* CafeTerrace.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57726F1EFCA0019B315 /* CafeTerrace.mlmodel */; };
+		E89AF57E26F1F0340019B315 /* PotatoEaters.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E89AF57D26F1F0340019B315 /* PotatoEaters.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		E89AF56926F1EE690019B315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E89AF56C26F1EE690019B315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E89AF56E26F1EE690019B315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E89AF57526F1EFC90019B315 /* StarryNight.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = StarryNight.mlmodel; sourceTree = "<group>"; };
+		E89AF57626F1EFCA0019B315 /* AlmondBlossom.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = AlmondBlossom.mlmodel; sourceTree = "<group>"; };
+		E89AF57726F1EFCA0019B315 /* CafeTerrace.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = CafeTerrace.mlmodel; sourceTree = "<group>"; };
+		E89AF57D26F1F0340019B315 /* PotatoEaters.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = PotatoEaters.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		E89AF55F26F1EE680019B315 /* Van Gogh Filter Cam Project */ = {
 			isa = PBXGroup;
 			children = (
+				E89AF57426F1EF850019B315 /* MLModels */,
 				E89AF56026F1EE680019B315 /* AppDelegate.swift */,
 				E89AF56226F1EE680019B315 /* SceneDelegate.swift */,
 				E89AF56426F1EE680019B315 /* ViewController.swift */,
@@ -65,6 +74,17 @@
 				E89AF56E26F1EE690019B315 /* Info.plist */,
 			);
 			path = "Van Gogh Filter Cam Project";
+			sourceTree = "<group>";
+		};
+		E89AF57426F1EF850019B315 /* MLModels */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF57626F1EFCA0019B315 /* AlmondBlossom.mlmodel */,
+				E89AF57726F1EFCA0019B315 /* CafeTerrace.mlmodel */,
+				E89AF57526F1EFC90019B315 /* StarryNight.mlmodel */,
+				E89AF57D26F1F0340019B315 /* PotatoEaters.mlmodel */,
+			);
+			path = MLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +159,10 @@
 			files = (
 				E89AF56526F1EE680019B315 /* ViewController.swift in Sources */,
 				E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */,
+				E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */,
+				E89AF57E26F1F0340019B315 /* PotatoEaters.mlmodel in Sources */,
+				E89AF57A26F1EFCA0019B315 /* AlmondBlossom.mlmodel in Sources */,
+				E89AF57B26F1EFCA0019B315 /* CafeTerrace.mlmodel in Sources */,
 				E89AF56326F1EE680019B315 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
