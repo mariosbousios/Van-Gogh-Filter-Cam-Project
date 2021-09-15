@@ -25,6 +25,8 @@
 		E89AF58F26F1F3D90019B315 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF58C26F1F3D90019B315 /* Enums.swift */; };
 		E89AF59026F1F3D90019B315 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF58D26F1F3D90019B315 /* Colors.swift */; };
 		E89AF59126F1F3D90019B315 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF58E26F1F3D90019B315 /* Strings.swift */; };
+		E89AF59326F1F41D0019B315 /* VanGoghFiltersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59226F1F41D0019B315 /* VanGoghFiltersManager.swift */; };
+		E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		E89AF58C26F1F3D90019B315 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		E89AF58D26F1F3D90019B315 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		E89AF58E26F1F3D90019B315 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		E89AF59226F1F41D0019B315 /* VanGoghFiltersManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFiltersManager.swift; sourceTree = "<group>"; };
+		E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghFilter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +84,10 @@
 		E89AF55F26F1EE680019B315 /* Van Gogh Filter Cam Project */ = {
 			isa = PBXGroup;
 			children = (
-				E89AF58826F1F3550019B315 /* Managers */,
-				E89AF57F26F1F2CB0019B315 /* Extensions */,
 				E89AF57426F1EF850019B315 /* MLModels */,
+				E89AF57F26F1F2CB0019B315 /* Extensions */,
+				E89AF58826F1F3550019B315 /* Managers */,
+				E89AF59426F1F42B0019B315 /* Models */,
 				E89AF58B26F1F3C70019B315 /* Constants */,
 				E89AF56026F1EE680019B315 /* AppDelegate.swift */,
 				E89AF56226F1EE680019B315 /* SceneDelegate.swift */,
@@ -121,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				E89AF58926F1F3790019B315 /* PhotoPickerManager.swift */,
+				E89AF59226F1F41D0019B315 /* VanGoghFiltersManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -133,6 +139,14 @@
 				E89AF58E26F1F3D90019B315 /* Strings.swift */,
 			);
 			path = Constants;
+			sourceTree = "<group>";
+		};
+		E89AF59426F1F42B0019B315 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E89AF59526F1F44F0019B315 /* VanGoghFilter.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,6 +223,8 @@
 				E89AF56526F1EE680019B315 /* ViewController.swift in Sources */,
 				E89AF58426F1F2D60019B315 /* UIButtonExtension.swift in Sources */,
 				E89AF59026F1F3D90019B315 /* Colors.swift in Sources */,
+				E89AF59326F1F41D0019B315 /* VanGoghFiltersManager.swift in Sources */,
+				E89AF59626F1F44F0019B315 /* VanGoghFilter.swift in Sources */,
 				E89AF56126F1EE680019B315 /* AppDelegate.swift in Sources */,
 				E89AF58726F1F2D60019B315 /* UIImageExtension.swift in Sources */,
 				E89AF57926F1EFCA0019B315 /* StarryNight.mlmodel in Sources */,
