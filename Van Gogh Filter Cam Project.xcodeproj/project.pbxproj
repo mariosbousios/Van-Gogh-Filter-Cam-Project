@@ -29,6 +29,7 @@
 		E89AF59B26F1F4BA0019B315 /* VanGoghCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */; };
 		E89AF59C26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */; };
 		E89AF5A026F1F5560019B315 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF59F26F1F5560019B315 /* HomeViewController.swift */; };
+		E89AF5A226F1F5810019B315 /* StartingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E89AF59926F1F4BA0019B315 /* VanGoghCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VanGoghCollectionViewCell.swift; sourceTree = "<group>"; };
 		E89AF59A26F1F4BA0019B315 /* VanGoghCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VanGoghCollectionViewCell.xib; sourceTree = "<group>"; };
 		E89AF59F26F1F5560019B315 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				E89AF59F26F1F5560019B315 /* HomeViewController.swift */,
+				E89AF5A126F1F5810019B315 /* StartingScreenViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 				E89AF57A26F1EFCA0019B315 /* AlmondBlossom.mlmodel in Sources */,
 				E89AF57B26F1EFCA0019B315 /* CafeTerrace.mlmodel in Sources */,
 				E89AF59B26F1F4BA0019B315 /* VanGoghCollectionViewCell.swift in Sources */,
+				E89AF5A226F1F5810019B315 /* StartingScreenViewController.swift in Sources */,
 				E89AF58526F1F2D60019B315 /* UILabelExtension.swift in Sources */,
 				E89AF56326F1EE680019B315 /* SceneDelegate.swift in Sources */,
 			);
